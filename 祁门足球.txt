@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>祁门蛇伤研究所乐队</title>
+    
+    <style>
+        body {
+            background-color: #1a1a1a; /*深灰色背景*/
+            color: #ffffff;            /*白色文字*/
+            font-family: "微软雅黑", sans-serif;
+            text-align: center;        /*居中对齐*/
+            padding-top: 50px;
+        }
+        h1 {
+            color: #00ff41;            /*黑客绿标题*/
+            font-size: 48px;
+        }
+        p {
+            font-size: 20px;
+            color: #cccccc;
+        }
+        .btn {
+            background-color: #ff0055; /*红粉色按钮*/
+            color: white;
+            padding: 15px 32px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 8px;        /*圆角*/
+            cursor: pointer;           /*鼠标放上去变手型*/
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🚀 欢迎来到我们的排练室</h1>
+    <hr width="70%">
+	<img src="guts.png" width="400" alt="游戏开发工作室概念图" style="border-radius: 15px; border: 3px solid #00ff41;">
+    
+    <p>这里是来自祁门县的青年乐队：蛇伤研究所！</p>
+    <p>也是未来要成为举世皆知的人气乐队之家：P</p>
+    <p>目前正在锐意锤炼音乐技能......</p>
+    
+    <br><br>
+    	<a href="https://store.steampowered.com/" target="_blank">
+		<button class="btn" >🧐了解更多</button>
+	    </a>
+
+
+</body>
+</html>
+
+	
+
