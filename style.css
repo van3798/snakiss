@@ -229,6 +229,16 @@ h1 {
     margin: 0 auto;
 }
 
+.img-cave{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+
+    /* 3. 把圆角加在笼子上，因为照片放大后圆角可能会被撑没 */
+    border-radius: 8px;
+
+}
+
 .guide-img{
     width: 200px; 
     height: 200px;             /* 把宽度控制也搬到这里 */
@@ -244,8 +254,9 @@ h1 {
 
     /* 3. (可选) 调整显示位置 */
     /* 默认是 center (居中)，也可以写 top (显示顶部/头部) */
-    object-position: center -10px;
+    object-position:  0px -10px;
     /* y轴向上移动是负数 */
+    overflow: hidden;
 
 }
 
