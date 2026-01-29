@@ -390,8 +390,8 @@ h1 {
     /* 3. 调整图片大小 */
     .studio-img {
         /* 防止图片太大撑破手机屏幕 */
-        width: 60%; 
-        max-width: 200px;
+        width: 70%; 
+        max-width: 300px;
     }
     /* 4.字体变小一点 */
     h1 {
@@ -411,11 +411,15 @@ h1 {
         /* 可选：手机上左右边距小一点，别太浪费空间 */
         padding: 20px;
         gap: 20px;
+        max-width:500px;
+         margin: 30px 0px;
+         gap:50px;
+
     }
 
     .guide-img{
-    width: 40%;              /* 把宽度控制也搬到这里 */
-    max-width: 200px;
+    width: 60%;              /* 把宽度控制也搬到这里 */
+    max-width: 300px;
 
     .member_pic{
         width: 60%; 
