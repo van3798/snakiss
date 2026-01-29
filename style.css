@@ -230,12 +230,15 @@ h1 {
 }
 
 .img-cave{
-    width: 100%;
+    width: 200px;
     height: 200px;
     overflow: hidden;
-
+     border-radius: 50%;  
+     border: 3px solid #03701e; /* 绿色边框 */
     /* 3. 把圆角加在笼子上，因为照片放大后圆角可能会被撑没 */
-    border-radius: 8px;
+   box-shadow: 0 0 20px rgba(3, 112, 30, 0.5);
+   object-fit: cover; 
+   margin-left:70px;
 
 }
 
@@ -251,6 +254,7 @@ h1 {
     /* 2. 关键代码：覆盖模式 */
     /* 意思：保持图片比例，填满盒子，多余的部分自动裁掉！ */
     object-fit: cover; 
+    overflow: hidden;
 
     /* 3. (可选) 调整显示位置 */
     /* 默认是 center (居中)，也可以写 top (显示顶部/头部) */
@@ -418,19 +422,28 @@ h1 {
     }
 
     .guide-img{
-    width: 60%;              /* 把宽度控制也搬到这里 */
-    max-width: 300px;
-
-    .member_pic{
-        width: 60%; 
-        max-width: 200px;
-    }
+               /* 把宽度控制也搬到这里 */
+    max-width: 160px;
+    max-height: 160px;
 
     }
 
     .text_30{
     font-size: 16px;
    
+}
+
+.img-cave{
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+     border-radius: 50%;  
+     border: 3px solid #03701e; /* 绿色边框 */
+    /* 3. 把圆角加在笼子上，因为照片放大后圆角可能会被撑没 */
+   box-shadow: 0 0 20px rgba(3, 112, 30, 0.5);
+   object-fit: cover; 
+   margin-left:90px;
+
 }
 
 
